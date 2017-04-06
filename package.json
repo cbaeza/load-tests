@@ -1,0 +1,27 @@
+{
+  "name": "load-tests",
+  "version": "0.0.1",
+  "description": "Tool to perform load test again you API",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbaeza/load-tests.git"
+  },
+  "keywords": [
+    "load",
+    "performance",
+    "api"
+  ],
+  "author": "carlos.baeza@posteo.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbaeza/load-tests/issues"
+  },
+  "homepage": "https://github.com/cbaeza/load-tests#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
