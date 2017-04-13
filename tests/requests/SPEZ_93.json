@@ -1,0 +1,82 @@
+{
+  "PriceCalculate": {
+    "-xmlns": "http://www.sap.com/IXRetail/namespace/",
+    "-InternalMajorVersion": "2",
+    "-InternalMinorVersion": "0",
+    "ARTSHeader": {
+      "-ActionCode": "Calculate",
+      "-MessageType": "Request",
+      "MessageID": "9a89f2edfd1e413ea147e334b9c2ed4b",
+      "DateTime": "2501-03-09T04:48:30.427Z",
+      "BusinessUnit": {
+        "-TypeCode": "RetailStore",
+        "#text": "OS01"
+      }
+    },
+    "PriceCalculateBody": {
+      "-TransactionType": "SaleTransaction",
+      "-NetPriceFlag": "true",
+      "-CalculationMode": "LineItem",
+      "TransactionID": "9a89f2edfd1e413ea147e334b9c2ed4b",
+      "DateTime": "2501-03-09T00:00:00.000Z",
+      "ShoppingBasket": {
+        "LineItem": [
+          {
+            "Sale": {
+              "-ItemType": "Stock",
+              "-NonDiscountableFlag": "false",
+              "-FixedPriceFlag": "false",
+              "ItemID": "ROC_SA_2",
+              "RegularSalesUnitPrice": {
+                "-Currency": "EUR",
+                "#text": "24.55000"
+              },
+              "Quantity": {
+                "-Units": "1",
+                "-UnitOfMeasureCode": "PCE",
+                "#text": "1"
+              },
+              "TaxIncludedInPriceFlag": "false",
+              "NonPieceGoodFlag": "false",
+              "FrequentShopperPointsEligibilityFlag": "true",
+              "PriceTypeCode": "00",
+              "NotConsideredByPriceEngineFlag": "false"
+            },
+            "SequenceNumber": "0",
+            "MerchandiseHierarchy": {
+              "-ID": "1",
+              "#text": "RF16231"
+            }
+          },
+          {
+            "Sale": {
+              "-ItemType": "Stock",
+              "-NonDiscountableFlag": "false",
+              "-FixedPriceFlag": "false",
+              "ItemID": "ROC_SA_1",
+              "RegularSalesUnitPrice": {
+                "-Currency": "EUR",
+                "#text": "25.21008"
+              },
+              "Quantity": {
+                "-Units": "1",
+                "-UnitOfMeasureCode": "CT",
+                "#text": "1"
+              },
+              "TaxIncludedInPriceFlag": "false",
+              "NonPieceGoodFlag": "false",
+              "FrequentShopperPointsEligibilityFlag": "true",
+              "PriceTypeCode": "00",
+              "NotConsideredByPriceEngineFlag": "false"
+            },
+            "SequenceNumber": "1",
+            "MerchandiseHierarchy": {
+              "-ID": "1",
+              "#text": "RF16231"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

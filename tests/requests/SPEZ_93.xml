@@ -1,0 +1,42 @@
+'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriceCalculate xmlns="http://www.sap.com/IXRetail/namespace/" InternalMajorVersion="2" InternalMinorVersion="0">
+    <ARTSHeader ActionCode="Calculate" MessageType="Request">
+        <MessageID>9a89f2edfd1e413ea147e334b9c2ed4b</MessageID>
+        <DateTime>2501-03-09T04:48:30.427Z</DateTime>
+        <BusinessUnit TypeCode="RetailStore">OS01</BusinessUnit>
+    </ARTSHeader>
+    <PriceCalculateBody TransactionType="SaleTransaction" NetPriceFlag="true" CalculationMode="LineItem">
+        <TransactionID>9a89f2edfd1e413ea147e334b9c2ed4b</TransactionID>
+        <DateTime>2501-03-09T00:00:00.000Z</DateTime>
+        <ShoppingBasket>
+            <LineItem>
+                <Sale ItemType="Stock" NonDiscountableFlag="false" FixedPriceFlag="false">
+                    <ItemID>ROC_SA_1</ItemID>
+                    <RegularSalesUnitPrice Currency="EUR">25.21008</RegularSalesUnitPrice>
+                    <Quantity Units="1" UnitOfMeasureCode="CT">1</Quantity>
+                    <TaxIncludedInPriceFlag>false</TaxIncludedInPriceFlag>
+                    <NonPieceGoodFlag>false</NonPieceGoodFlag>
+                    <FrequentShopperPointsEligibilityFlag>true</FrequentShopperPointsEligibilityFlag>
+                    <PriceTypeCode>00</PriceTypeCode>
+                    <NotConsideredByPriceEngineFlag>false</NotConsideredByPriceEngineFlag>
+                </Sale>
+                <SequenceNumber>0</SequenceNumber>
+                <MerchandiseHierarchy ID="1">RF16231</MerchandiseHierarchy>
+            </LineItem>
+            <LineItem>
+                <Sale ItemType="Stock" NonDiscountableFlag="false" FixedPriceFlag="false">
+                    <ItemID>ROC_SA_2</ItemID>
+                    <RegularSalesUnitPrice Currency="EUR">24.55000</RegularSalesUnitPrice>
+                    <Quantity Units="1" UnitOfMeasureCode="PCE">1</Quantity>
+                    <TaxIncludedInPriceFlag>false</TaxIncludedInPriceFlag>
+                    <NonPieceGoodFlag>false</NonPieceGoodFlag>
+                    <FrequentShopperPointsEligibilityFlag>true</FrequentShopperPointsEligibilityFlag>
+                    <PriceTypeCode>00</PriceTypeCode>
+                    <NotConsideredByPriceEngineFlag>false</NotConsideredByPriceEngineFlag>
+                </Sale>
+                <SequenceNumber>1</SequenceNumber>
+                <MerchandiseHierarchy ID="1">RF16231</MerchandiseHierarchy>
+            </LineItem>
+        </ShoppingBasket>
+    </PriceCalculateBody>
+</PriceCalculate>''

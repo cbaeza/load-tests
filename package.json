@@ -4,7 +4,7 @@
   "description": "Tool to perform load test again you API",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha 'tests/**.js'"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,15 @@
   "homepage": "https://github.com/cbaeza/load-tests#readme",
   "dependencies": {
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "http": "0.0.0",
+    "mocha": "^3.2.0",
+    "request": "^2.81.0",
+    "sinon": "^2.1.0",
+    "stream": "0.0.2",
+    "xml2js": "^0.4.17"
   }
 }
